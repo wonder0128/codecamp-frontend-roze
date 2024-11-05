@@ -52,6 +52,4 @@ export const Content = styled.div `
 
 export const BigInput = styled.input `
   height: 52px;
-
-
 `
