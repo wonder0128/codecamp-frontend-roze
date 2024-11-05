@@ -19,6 +19,6 @@ export default function newBoard() {
         <BigInput>111</BigInput>
       </Content>
     </BoardMain>
-    
+  
   )
 }
