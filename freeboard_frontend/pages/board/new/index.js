@@ -1,4 +1,4 @@
-import {BoardMain, Head, Board, User, Title, SmallInput, Content, BigInput} from '../../../styles/board-emotion.js'
+import {BoardMain, Head, Board, User, Title, SmallInput, Content, ContentInput} from '../../../styles/board-emotion.js'
 export default function newBoard() {
   
   return (
@@ -16,9 +16,9 @@ export default function newBoard() {
       </Board>
       <Content>
         <Title>제목</Title>
-        <BigInput>111</BigInput>
+        <BigInput></BigInput>
       </Content>
     </BoardMain>
-  
+    
   )
 }
