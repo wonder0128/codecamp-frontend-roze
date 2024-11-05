@@ -16,7 +16,7 @@ export default function newBoard() {
       </Board>
       <Content>
         <Title>제목</Title>
-        <BigInput></BigInput>
+        <BigInput>111</BigInput>
       </Content>
     </BoardMain>
     
