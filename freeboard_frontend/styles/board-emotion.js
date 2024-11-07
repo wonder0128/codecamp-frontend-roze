@@ -20,7 +20,6 @@ export const Board = styled.div `
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
-  border: 1px solid red;
 `
 
 export const User = styled.div `
@@ -37,19 +36,56 @@ export const Title = styled.span `
   line-height: 24px;
 `
 
-export const SmallInput = styled.input `
+export const DefaultInput = styled.input `
   height: 52px;
 `
 
-export const Content = styled.div `
+export const DefaultDiv = styled.div `
   width: 100%;
-  height: auto;
+  height: 92px;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
-  border: 1px solid green;
+  justify-content: space-between;
+  border: 1px solid tomato;
 `
 
-export const BigInput = styled.input `
+export const ContentDiv = styled.div `
+  width: 100%;
+  height: 520px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`
+
+export const ContentTextArea = styled.textarea `
+  height: 480px;
+`
+
+export const AddressDiv = styled.div `
+  height: 242px;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`
+
+export const TinyInput = styled.input `
+  width: 78px;
   height: 52px;
+  text-align: center;
+`
+
+export const SearchBtn = styled.button `
+  width: 124px;
+  /* height: 52px; */
+  background-color: #000;
+  color: #fff;
+  margin-left: 16px;
+`
+
+export const DetailDiv = styled.div`
+  height: 52px;
+  display: flex;
 `
