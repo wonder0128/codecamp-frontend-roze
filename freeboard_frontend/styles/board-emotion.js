@@ -47,7 +47,6 @@ export const DefaultDiv = styled.div `
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid tomato;
 `
 
 export const ContentDiv = styled.div `
@@ -79,13 +78,58 @@ export const TinyInput = styled.input `
 
 export const SearchBtn = styled.button `
   width: 124px;
-  /* height: 52px; */
   background-color: #000;
   color: #fff;
   margin-left: 16px;
 `
 
 export const DetailDiv = styled.div`
-  height: 52px;
   display: flex;
+`
+
+export const PhotoAddDiv = styled.div`
+  height: 118px;
+  display: flex;
+  justify-content: space-between;
+`
+
+export const ImgDiv = styled.div`
+  width: 78px;
+  height: 78px;
+  margin-right: 24px;
+  text-align: center;
+  background-color: #BDBDBD;
+`
+
+export const UploadSpan = styled.span`
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+`
+
+export const ImgAdd = styled.img`
+
+`
+
+export const MainSettingDiv = styled.div`
+  height: 64px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+`
+
+export const CustomLabel = styled.label`
+  margin-right: 20px;
+`
+
+export const AddBtn = styled.button`
+  width: 180px;
+  height: 52px;
+  text-align: center;
+  background-color: #FFD600;
+  margin: 0 auto;
+  border-style: none;
+  margin-top: 40px;
 `
