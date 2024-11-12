@@ -98,6 +98,10 @@ export const ImgDiv = styled.div`
   height: 78px;
   margin-right: 24px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #BDBDBD;
 `
 
@@ -109,7 +113,7 @@ export const UploadSpan = styled.span`
 `
 
 export const ImgAdd = styled.img`
-
+  margin-bottom: 10px;
 `
 
 export const MainSettingDiv = styled.div`
@@ -132,4 +136,10 @@ export const AddBtn = styled.button`
   margin: 0 auto;
   border-style: none;
   margin-top: 40px;
+`
+
+export const ErrMsg = styled.span `
+  text-align: left;
+  font-size: 14px;
+  color: red;
 `
